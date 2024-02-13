@@ -30,7 +30,7 @@ public class Ex1 extends Hooks {
 		loginButton.click();
 
 		Thread.sleep(1000);
-
+		System.out.println("amazing");
 		tearDown();
 	}
 }
